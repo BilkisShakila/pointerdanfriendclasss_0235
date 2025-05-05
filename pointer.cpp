@@ -15,6 +15,11 @@ int main()
     cout << "Nilai dari c : " << *c << endl;
 
     //reference 
-    int 
+    int &d = b;
+    cout << "Nilai " << d << endl;
+    cout << "Reference " <<  &d << endl;
+
+    int f = 5;
+    int g = f;
 }
 
